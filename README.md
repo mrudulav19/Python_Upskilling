@@ -1,90 +1,137 @@
 # Python Upskilling Journey 🐍🚀
 
 ## Overview
-This repository documents my Python learning journey through hands-on projects, practice exercises, and problem-solving.
+This repository documents my Python learning journey through hands-on mini projects, coding exercises, and problem-solving practice.
 
-The goal of this repo is to build strong Python fundamentals through practical implementation rather than just theory. Each project represents a concept I learned and applied while improving my coding skills.
+The goal is to build strong Python fundamentals through practical implementation and gradually transition into **Artificial Intelligence / Machine Learning** development.
 
-This is also part of a broader learning path toward **Artificial Intelligence**, where Python serves as the foundational language for machine learning, automation, data handling, and AI development.
+This repo serves as both a learning tracker and a portfolio of projects built while improving Python skills.
 
 ---
 
 ## Learning Goals
-- Strengthen Python fundamentals
-- Practice problem-solving and logical thinking
-- Build practical Python projects
-- Learn file handling and data processing
-- Improve debugging and code structuring skills
-- Prepare for AI / Machine Learning development
+- Learn Python from fundamentals to intermediate/advanced concepts
+- Build practical Python projects through hands-on coding
+- Improve logical thinking and problem-solving skills
+- Understand file handling, automation, and data processing
+- Write cleaner, more structured, and maintainable Python code
+- Strengthen debugging and coding best practices
+- Learn Artificial Intelligence / Machine Learning concepts
+- Build AI-powered projects using Python
+- Develop a strong foundation for future AI engineering work
 
 ---
 
 ## Projects Completed
 
-### 1. Log File Analyzer
+### 1. File Organizer
 **Description:**  
-A Python script that reads a log file and counts the number of:
-- INFO messages
-- WARNING messages
-- ERROR messages
+A Python automation script that organizes files into folders based on file extensions.
 
-**Concepts Covered:**
+**Features:**
+- Detects file extensions
+- Creates folders automatically
+- Moves files into categorized directories
+
+**Concepts Used:**
 - File handling
-- Reading and writing files
-- String methods
+- Dictionaries
 - Loops
-- Conditional statements
-- Counters
-
-**Skills Gained:**
-- Parsing text-based data
-- Automating repetitive tasks
-- Debugging simple scripts
+- Conditional logic
+- `os` module
+- `shutil` module
 
 ---
 
-### 2. Python Practice Exercises
+### 2. Batch File Renamer
 **Description:**  
-A collection of smaller coding problems and exercises completed while learning Python fundamentals.
+A script that renames multiple files automatically using sequential naming.
 
-**Topics Covered:**
-- Variables
-- Data types
+**Features:**
+- Batch renaming
+- Dynamic filename generation
+- Extension preservation
+
+**Concepts Used:**
+- Loops
+- String formatting
+- File renaming with `os.rename()`
+- `enumerate()`
+
+---
+
+### 3. Duplicate File Detector
+**Description:**  
+A simple script that detects duplicate filenames from a collection of files.
+
+**Features:**
+- Duplicate detection
+- Unique file tracking
+- Result reporting
+
+**Concepts Used:**
+- Sets
 - Lists
+- Loops
+- Conditional logic
+
+---
+
+### 4. Simple Log Parser
+**Description:**  
+A script that reads log files and analyzes message types.
+
+**Features:**
+- Reads log file contents
+- Detects INFO, WARNING, and ERROR messages
+- Generates summary counts
+
+**Concepts Used:**
+- File reading/writing
 - Dictionaries
-- Functions
+- Loops
+- Conditional statements
+- String matching
+
+---
+
+## Skills Built So Far
+Through these projects, I’ve practiced:
+- File handling
+- Automation scripting
+- Data structures (`lists`, `sets`, `dictionaries`)
 - Loops
 - Conditional logic
 - String manipulation
-- Input/output handling
-
-**Skills Gained:**
-- Logical thinking
-- Problem-solving
-- Writing cleaner Python code
+- Debugging
+- Code cleanup and organization
 
 ---
 
-## Learning Roadmap
+## Upcoming Learning Roadmap
 
 ### Intermediate Python
 Planned topics:
 - Object-Oriented Programming (OOP)
 - Exception handling
+- Functions in depth
 - Modules & packages
 - List comprehensions
 - Lambda functions
-- Decorators
 - Iterators & generators
 - JSON / CSV handling
 
-### Automation
-Planned topics:
-- File automation
-- OS module
-- Web scraping
-- API integration
-- Task automation scripts
+---
+
+### Automation Projects
+Planned projects:
+- Folder cleanup automation
+- File backup scripts
+- Email automation
+- API-based scripts
+- Web scraping projects
+
+---
 
 ### Artificial Intelligence / Machine Learning 🤖
 Planned learning:
@@ -95,7 +142,9 @@ Planned learning:
 - Scikit-learn
 - Machine Learning fundamentals
 - Model training
+- Model evaluation
 - Deep Learning basics
+- Neural Networks
 - TensorFlow / PyTorch
 - AI mini projects
 
@@ -103,15 +152,17 @@ Planned learning:
 
 ## Why This Repository Exists
 This repository serves as:
-- A record of my Python learning progress
-- A hands-on coding portfolio
+- A record of my learning progress
+- A practical coding portfolio
 - A space to experiment, debug, and improve
-- A foundation for transitioning into AI development
+- A stepping stone toward AI engineering
 
 ---
 
 ## Progress Mindset
-Learning by building, experimenting, and improving one project at a time.
+Learning by building.
+
+Starting small, improving consistently, and understanding concepts through hands-on practice.
 
 **Progress > Perfection**
 
@@ -121,7 +172,7 @@ Learning by building, experimenting, and improving one project at a time.
 **Current:**
 - Python
 
-**Future additions:**
+**Planned additions:**
 - NumPy
 - Pandas
 - Scikit-learn
@@ -130,5 +181,5 @@ Learning by building, experimenting, and improving one project at a time.
 ---
 
 ## Current Status
-🟢 Learning Python fundamentals  
-🔜 Moving toward Intermediate Python and AI foundations
+🟢 Learning Python fundamentals and building mini projects  
+🔜 Moving toward AI / Machine Learning development
